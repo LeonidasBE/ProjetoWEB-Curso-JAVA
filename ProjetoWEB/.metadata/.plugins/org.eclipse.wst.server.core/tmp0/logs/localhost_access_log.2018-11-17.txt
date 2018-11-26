@@ -1,0 +1,9 @@
+127.0.0.1 - - [17/Nov/2018:20:52:22 -0200] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [17/Nov/2018:20:52:49 -0200] "GET /4Disciplina/formulariov2.html HTTP/1.1" 200 606
+0:0:0:0:0:0:0:1 - - [17/Nov/2018:20:52:49 -0200] "GET /4Disciplina/lib/css/estilo.css HTTP/1.1" 404 162
+0:0:0:0:0:0:0:1 - - [17/Nov/2018:20:52:51 -0200] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [17/Nov/2018:20:54:14 -0200] "GET /4Disciplina/formulariov2.html HTTP/1.1" 200 606
+0:0:0:0:0:0:0:1 - - [17/Nov/2018:20:54:14 -0200] "GET /4Disciplina/lib/css/estilo.css HTTP/1.1" 404 162
+0:0:0:0:0:0:0:1 - - [17/Nov/2018:20:54:14 -0200] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [17/Nov/2018:20:56:34 -0200] "GET /4Disciplina/formulariov2.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [17/Nov/2018:20:56:34 -0200] "GET /4Disciplina/lib/css/estilo.css HTTP/1.1" 404 162

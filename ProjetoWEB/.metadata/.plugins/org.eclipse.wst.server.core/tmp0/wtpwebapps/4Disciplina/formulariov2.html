@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Página de formulário</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="lib/js/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/js/bootstrap.min.js"></script>
+    <link href="lib/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="lib/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="lib/css/padrao.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="section section-info text-justify">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-12 text-center">
+            <h1 class="text-center">Página do aluno</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <form action="http://localhost:81/4Disciplina/ServletControlador" name="form" method="post">
+				CPF: <br/>
+				<input type="text" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}\-\d{2}" maxlength="14" title="Digite seu CPF no formato xxx.xxx.xxx-xx" required><br/>
+				Senha:<br/>
+				<input type="password" name="senha" title="Digite sua senha" required><br/>
+				<input class="btn btn-info" type="submit" value="Entrar"><br/>
+			</form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="navbar navbar-fixed-bottom bgred">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 text-center" style="top:13px;color:#fff;">© ABCTreinamentos - Curso de Java 8 para Web</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>

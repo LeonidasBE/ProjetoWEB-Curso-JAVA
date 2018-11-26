@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 13/11/2018 17:26:59 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.abctreinamentos.Cliente" table="CLIENTE" optimistic-lock="version">
+        <id name="cpf" type="long">
+            <column name="CPF" precision="22" scale="0" />
+            <generator class="assigned" />
+        </id>
+        <property name="nome" type="string">
+            <column name="NOME" length="80" not-null="true" />
+        </property>
+        <property name="email" type="string">
+            <column name="EMAIL" length="40" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

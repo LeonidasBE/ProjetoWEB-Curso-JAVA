@@ -1,0 +1,23 @@
+
+	/************************* Metodo PS *************************************/
+	public static void inserirPS(long cpf, String nome, String email) throws SQLException{
+		String sql = "INSERT INTO Cliente values (?,?,?)";
+		PreparedStatement stmt = conexao.prepareStatement(sql);
+		stmt.setLong(1, cpf);
+		stmt.setString(2, nome);
+		stmt.setString(3, email);
+		stmt.executeUpdate(sql);
+		conexao.commit();
+	}
+	
+	/*********************** Metodo SP ***************************************/
+	public static void inserirSP(long cpf, String nome, String email) throws SQLException{
+		String sql = "{call sp_inserircliente(?,?,?)}";
+		CallableStatement cstmt = conexao.prepareCall(sql);
+		cstmt.setLong(1, cpf);
+		cstmt.setString(2, nome);
+		cstmt.setString(3, email);
+		cstmt.execute();
+		conexao.commit();
+	}
+	

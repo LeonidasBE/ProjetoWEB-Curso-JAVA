@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 13/11/2018 17:26:59 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.abctreinamentos.Pagamento" table="PAGAMENTO" optimistic-lock="version">
+        <composite-id name="id" class="com.abctreinamentos.PagamentoId">
+            <key-property name="cpf" type="long">
+                <column name="CPF" precision="22" scale="0" />
+            </key-property>
+            <key-property name="cdcurso" type="long">
+                <column name="CDCURSO" precision="22" scale="0" />
+            </key-property>
+        </composite-id>
+        <property name="datainscricao" type="string">
+            <column name="DATAINSCRICAO" length="10" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>
