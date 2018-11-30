@@ -1,7 +1,3 @@
 INDEX VERSION 1.131
-C:\Users\Leonardo\Desktop\ProjetoWEB\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4211133749.index
-\Projeto\src
-C:\Users\Leonardo\Desktop\ProjetoWEB\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\783269791.index
-\4Disciplina\src
-C:\Users\leoni\Desktop\ProjetoWEB\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\783269791.index
+D:\Users\Leonidas\Documents\GitHub\ProjetoWEB-Curso-JAVA\ProjetoWEB\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\783269791.index
 \4Disciplina\src
