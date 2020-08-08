@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="drivers">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/drivers/classes12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/drivers/ojdbc8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
